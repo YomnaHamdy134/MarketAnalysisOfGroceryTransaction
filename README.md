@@ -31,18 +31,34 @@ The dataset used for this project is related to **Egyptian grocery transactions*
 
 ## 🧩 Project Workflow
 
-### 1️⃣ Jupyter Notebook
+### 1️⃣ Environment Setup
+- Created a Python **virtual environment (.venv)**
+- Organized the project structure and dependencies
+
+### 2️⃣ Jupyter Notebook
 - **Data preprocessing**: Cleaned and transformed transactional data into a list of items ready for Apriori analysis. 
  ![ListOfItems](images/ListOFItems.png)
- 
-- **Frequent Itemsets & Association Rules**: Identified relationships and patterns between products.  
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+- Explored product frequencies and distribution
+- Identified the most commonly purchased items
+
+### 4️⃣ Market Basket Analysis
+- Applied the **Apriori Algorithm** using MLxtend
+- **Frequent Itemsets**:Generated Frequent Itemsets
+- **Association Rules**: Identified relationships and patterns between products.  
 ![AssociationRules](images/AssociationRules.png)
 
-- **Preliminary Visualizations**: Created initial bar charts, network diagrams to explore data.
+### 5️⃣ Evaluation Metrics 
+Analyzed the rules using: **Support, Confidence, Lift**
+
+### 6️⃣ Preliminary Visualizations:
+Created initial **bar charts, network diagrams** to explore data.
 ![BarChartForTopFrequentItems](images/BarChart.png)
 ![NetworkDiagram](images/Network_Diagram.png)
 
-### 2️⃣ Streamlit Web App
+
+### 7️⃣ Streamlit Web App
 - **Dynamic data upload**: Supports CSV and Excel files.  
 - **Interactive Visualizations**:
   - 📊 Bar chart of top frequent items  
