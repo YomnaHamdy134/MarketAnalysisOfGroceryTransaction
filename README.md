@@ -42,10 +42,12 @@ The dataset used for this project is related to **Egyptian grocery transactions*
 ### 3️⃣ Exploratory Data Analysis (EDA)
 - Explored product frequencies and distribution
 - Identified the most commonly purchased items
+![OneHotEncoder](images/OneHotEncoding.png)
 
 ### 4️⃣ Market Basket Analysis
 - Applied the **Apriori Algorithm** using MLxtend
 - **Frequent Itemsets**:Generated Frequent Itemsets
+![FrequentItemsets](images/FrequentItems.png)
 - **Association Rules**: Identified relationships and patterns between products.  
 ![AssociationRules](images/AssociationRules.png)
 
