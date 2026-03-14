@@ -1,5 +1,5 @@
 # 🛒 Market Basket Analysis
-**Powered by Python, Streamlit — Built for the DataMining Course for ITI G**
+**Powered by Python, Streamlit — Built for the DataMining Course for ITI **
 
 ## 📋 Overview
 This project performs a **Market Basket Analysis** to identify patterns of items frequently purchased together. The workflow includes **data preparation, association rules discovery**, and **interactive visualizations** using both **Jupyter Notebook** and a **Streamlit Web App**.  
